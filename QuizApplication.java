@@ -50,7 +50,7 @@ public class QuizApplication {
                     answeredCorrectly[questionIndex] = false; // Mark as incorrect
                 }
             };
-            timer.schedule(task, 20000); // 10 seconds for each question
+            timer.schedule(task, 20000); // 20 seconds for each question
 
             // User answer
             System.out.print("Your answer (1-4): ");
